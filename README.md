@@ -12,4 +12,5 @@ component and N-1 roads in each component, where N is the number of cities in th
 component. So, according to the mathematical induction, if a connected component
 needs N-1 roads to be connected, then nrComp need N-nrComp roads to be connected.
 This way, the minimum cost is:
+
 	minCost = nrComp * sCost + rCost * (nrCities - nrCompConexe)
